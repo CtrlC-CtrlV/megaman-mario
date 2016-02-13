@@ -1,0 +1,12 @@
+﻿Code Quality Review
+
+Author:         Bobby Reynolds
+Date:           2015-03-10
+Sprint:         2
+Name of file:   StageFactory.cs
+Author of file: Malkan
+
+Effective but slightly verbose verbose implementation of DOM traversal and corresponding generation
+	or a stage. 
+
+Would benefit from less (but more powerful) helper methods and more clear variable naming.

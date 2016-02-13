@@ -1,0 +1,14 @@
+﻿Code Quality Review
+
+Author:Shane Clark(.2112)
+Date:4/26/2015
+Sprint:Sprint 5
+Name of file:Buster.cs
+Author of file:Bobby Reynolds
+Minutes Reviewed: 10 minutes
+
+Specific comments on quality.
+Nice use of a buster class to control megaman's shooting.
+
+Hypothetical improvement.
+None. I think the code does what it is meant to do and does it well.

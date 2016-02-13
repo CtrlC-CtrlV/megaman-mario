@@ -1,0 +1,15 @@
+﻿Code Readability Review
+
+Author:	 Nikit Malkan
+Date:	26 April 2015
+Sprint:	5
+Name of file:
+	Mass refactoring of files over several commits. (Most files in code repository changed.)
+Author of file:	  Bobby Reynolds
+Minutes reviewed: 25
+
+Specific comments on readability.
+	- Code is MUCH cleaner.
+	- Much less coupling between classes.
+	- Functionality remains the same.
+	- Refactoring is done correctly.

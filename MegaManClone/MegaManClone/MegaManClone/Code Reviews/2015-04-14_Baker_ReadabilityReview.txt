@@ -1,0 +1,10 @@
+﻿Code Readability Review
+
+Author: Anna Baker			
+Date: 4/14	
+Sprint: 4
+Name of file:  Stage.cs
+Author of file:  Bobby
+Minutes reviewed: 5
+
+Specific comments on readability.   Boolean tracker is a nice and easy touch to ensure the mute button has not been pressed recently.  Prevents registration of another unintentional mute event.

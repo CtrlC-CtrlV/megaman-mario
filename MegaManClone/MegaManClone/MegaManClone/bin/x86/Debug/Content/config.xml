@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<megamangame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="megamangamedefinition.xsd">
+  <stage id="stage1-1" background="backgrounds/plainBG" boundary="212,15" music="music/001-mmu-prologue" time="400" checkpoint="100,12">
+    
+    <megaman location="1,12" />
+    
+    <!-- Floor -->
+    <platform location="0,13" size="70,2" blockType="floor" />
+    <platform location="72,13" size="15,2" blockType="floor"/>
+    <platform location="89,13" size="64,2" blockType="floor" />
+    <platform location="155,13" size="57,2" blockType="floor" />
+
+    <!-- Pipes -->
+    <platform location="31,11" size="2,2" blockType="pyramid" />
+    <platform location="39,10" size="2,3" blockType="pyramid" />
+    <platform location="47,9" size="2,4" blockType="pyramid" />
+    <platform location="56,10" size="2,3" blockType="pyramid" />
+    <platform location="163,11" size="2,2" blockType="pyramid"/>
+    <platform location="179,11" size="2,2" blockType="pyramid"/> 
+    
+    <!-- Brick Platforms -->
+    <platform location="81,5" size="8,1" blockType="brick" />
+    <platform location="92,5" size="3,1" blockType="brick" />
+    <platform location="123,5" size="3,1" blockType="brick"/>
+    <platform location="131,9" size="2,1" blockType="brick" />
+    <platform location="168,9" size="2,1" blockType="brick"/>
+    
+    <!-- Random Ramp Up and Down -->
+    <platform location="136,12" size="4,1" blockType="pyramid"/>
+    <platform location="137,11" size="3,1" blockType="pyramid"/>
+    <platform location="138,10" size="2,1" blockType="pyramid"/>
+    <platform location="139,9" size="1,1" blockType="pyramid"/>
+    <platform location="142,12" size="4,1" blockType="pyramid"/>
+    <platform location="142,11" size="3,1" blockType="pyramid"/>
+    <platform location="142,10" size="2,1" blockType="pyramid"/>
+    <platform location="142,9" size="1,1" blockType="pyramid"/>
+    
+    <!-- Ramp Up and Down with Pit of Death -->
+    <platform location="148,12" size="5,1" blockType="pyramid"/>
+    <platform location="149,11" size="4,1" blockType="pyramid"/>
+    <platform location="150,10" size="3,1" blockType="pyramid"/>
+    <platform location="151,9" size="2,1" blockType="pyramid"/>
+    <platform location="155,12" size="4,1" blockType="pyramid"/>
+    <platform location="155,11" size="3,1" blockType="pyramid"/>
+    <platform location="155,10" size="2,1" blockType="pyramid"/>
+    <platform location="155,9" size="1,1" blockType="pyramid"/>
+    
+    <!-- Ramp Before Flag Pole -->
+    <platform location="181,12" size="9,1" blockType="pyramid"/>
+    <platform location="182,11" size="8,1" blockType="pyramid"/>
+    <platform location="183,10" size="7,1" blockType="pyramid"/>
+    <platform location="184,9" size="6,1" blockType="pyramid"/>
+    <platform location="185,8" size="5,1" blockType="pyramid"/>
+    <platform location="186,7" size="4,1" blockType="pyramid"/>
+    <platform location="187,6" size="3,1" blockType="pyramid"/>
+    <platform location="188,5" size="2,1" blockType="pyramid"/>
+    
+
+    <!-- Interactable Blocks -->
+    <block blockType="hidden" location="15,8" />
+    <block blockType="question" location="17,9">
+      <item itemType="etank" />
+      <item itemType="zerohelmet" />
+      <item itemType="falconpowerup" />
+      <item itemType="lifetank"  />
+    </block>
+    <block blockType="hidden" location="19,8" />
+    <block blockType="brick" location="21,9" >
+      <item itemType="lifetank"/>
+    </block>
+    <!--item itemType="lifetank" location="21,8"/>
+      <item itemType="lifetank" location="21,8" />
+      <item itemType="lifetank" location="21,8" /-->
+    <block blockType="question" location="22,9" />
+    <block blockType="brick" location="23,9" />
+    <block blockType="question" location="24,9" />
+    <block blockType="brick" location="25,9" />
+    <block blockType="hidden" location="27,8" />
+
+    <block blockType="hidden" location="21,4" />
+    <block blockType="question" location="23,5" />
+    <block blockType="hidden" location="25,4" />
+    
+    <block blockType="question" location="64,8" />
+    <block blockType="brick" location="78,9" />
+    <block blockType="question" location="79,9" />
+    <block blockType="brick" location="80,9" />
+    <block blockType="question" location="95,5" />
+    <block blockType="brick" location="95,9" />
+    <block blockType="brick" location="102,9" />
+
+    <block blockType="question" location="103,9" />
+    <block blockType="question" location="108,9" />
+    <block blockType="question" location="111,9" />
+    <block blockType="question" location="111,5" />
+    <block blockType="question" location="114,9" />
+    
+    <block blockType="brick" location="120,9" />
+    <block blockType="brick" location="130,5" />
+    <block blockType="question" location="131,5" />
+    <block blockType="question" location="132,5" />
+    <block blockType="brick" location="133,5" />
+    
+    <block blockType="question" location="170,9" />
+    <block blockType="brick" location="171,9" />
+    
+    <!-- Hidden Blocks Make the World Go Round -->
+    <block blockType="hidden" location="29,10" />
+    <block blockType="hidden" location="34,10" />
+    <block blockType="hidden" location="37,9" />
+    <block blockType="hidden" location="42,9" />
+    <block blockType="hidden" location="45,8" />
+    <block blockType="hidden" location="50,8" />
+    <block blockType="hidden" location="54,9" />
+    <block blockType="hidden" location="59,9" />
+    <block blockType="hidden" location="62,7" />
+    <block blockType="hidden" location="66,7" />
+    <block blockType="hidden" location="71,12" />
+    <block blockType="hidden" location="76,8" />
+    <block blockType="hidden" location="82,8" />
+    <block blockType="hidden" location="80,4" />
+    <block blockType="hidden" location="88,12" />
+    <block blockType="hidden" location="90,4" />
+    <block blockType="hidden" location="93,8" />
+    <block blockType="hidden" location="97,4" />
+    <block blockType="hidden" location="97,8" />
+    <block blockType="hidden" location="100,8" />
+    <block blockType="hidden" location="105,8" />
+    <block blockType="hidden" location="106,8" />
+    <block blockType="hidden" location="109,4" />
+    <block blockType="hidden" location="110,8" />
+    <block blockType="hidden" location="113,4" />
+    <block blockType="hidden" location="113,8" />
+    <block blockType="hidden" location="116,8" />
+    <block blockType="hidden" location="118,8" />
+    <block blockType="hidden" location="121,4" />
+    <block blockType="hidden" location="122,8" />
+    <block blockType="hidden" location="127,4" />
+    <block blockType="hidden" location="128,4" />
+    <block blockType="hidden" location="129,8" />
+    <block blockType="hidden" location="134,8" />
+    <block blockType="hidden" location="135,4" />
+    <block blockType="hidden" location="134,11" /><!--First weird ramp-->
+    <block blockType="hidden" location="135,10" />
+    <block blockType="hidden" location="136,9" />
+    <block blockType="hidden" location="137,8" />
+    <block blockType="hidden" location="141,8" />
+    <block blockType="hidden" location="144,8" />
+    <block blockType="hidden" location="145,9" />
+    <block blockType="hidden" location="146,10" />
+    <block blockType="hidden" location="147,11" />
+    <block blockType="hidden" location="148,11" />
+    <block blockType="hidden" location="149,10" />
+    <block blockType="hidden" location="150,9" />
+    <block blockType="hidden" location="151,8" />
+    <block blockType="hidden" location="154,8" />
+    <block blockType="hidden" location="157,8" />
+    <block blockType="hidden" location="158,9" />
+    <block blockType="hidden" location="159,10" />
+    <block blockType="hidden" location="160,11" />
+    <block blockType="hidden" location="166,8" />
+    <block blockType="hidden" location="172,8" />
+    <block blockType="hidden" location="162,10" />
+    <block blockType="hidden" location="165,10" />
+    <block blockType="hidden" location="178,10" />
+    <block blockType="hidden" location="182,9" />
+    <block blockType="hidden" location="183,8" />
+    <block blockType="hidden" location="184,7" />
+    <block blockType="hidden" location="185,6" />
+    <block blockType="hidden" location="186,5" />
+    <block blockType="hidden" location="187,4" />
+    <block blockType="hidden" location="190,4" />
+    
+    <!-- Who so ever passes the blocks of death shall answer me
+    these questions three, DAREEE the other side he see! -->
+    <block blockType="death" location="70,14" />
+    <block blockType="death" location="71,14" />
+    <block blockType="death" location="87,14" />
+    <block blockType="death" location="88,14" />
+    <block blockType="death" location="153,14" />
+    <block blockType="death" location="154,14" />
+
+    <!-- Static Items -->
+    <!--
+    <item itemType="etank" location="22,8"/>
+    <item itemType="lifetank" location="23,12" />
+    <item itemType="megamanhelmet" location="64,7" />
+    <item itemType="zerohelmet" location="23,4" />
+    <item itemType="etank" location="79,8" />
+    <item itemType="lifetank" location="95,8" />
+    <item itemType="etank" location="111,4" />
+    <item itemType="falconpowerup" location="103,8"/>
+    -->
+    <item itemType="lifetank" location="11,7"/>
+    <item itemType="lifetank" location="12,6"/>
+    <item itemType="lifetank" location="13,5"/>
+    <item itemType="lifetank" location="14,6"/>
+    <item itemType="lifetank" location="15,7"/>
+    <item itemType="lifetank" location="17,5"/>
+    <item itemType="lifetank" location="23,2"/>
+    <item itemType="lifetank" location="27,6"/>
+    <item itemType="lifetank" location="29,7"/>
+    <item itemType="lifetank" location="34,12"/> 
+    
+    <item itemType="lifetank" location="35,12"/>
+    <item itemType="lifetank" location="36,12"/>
+    <item itemType="lifetank" location="35,7"/>
+    <item itemType="lifetank" location="43,12"/>
+    <item itemType="lifetank" location="44,12"/>
+    <item itemType="lifetank" location="43,7"/>
+    <item itemType="lifetank" location="44,7"/>
+    <item itemType="lifetank" location="51,7"/>
+    <item itemType="lifetank" location="52,7"/>
+    <item itemType="lifetank" location="53,7"/>
+    
+    <item itemType="lifetank" location="52,12"/>
+    <item itemType="lifetank" location="64,6"/>
+    <item itemType="lifetank" location="69,10"/>
+    <item itemType="lifetank" location="70,9"/>
+    <item itemType="lifetank" location="71,9"/>
+    <item itemType="lifetank" location="72,10"/>
+    <item itemType="lifetank" location="83,7"/>
+    <item itemType="lifetank" location="85,8"/>
+    <item itemType="lifetank" location="89,1"/>
+    <item itemType="lifetank" location="90,2"/>
+
+    <item itemType="lifetank" location="91,3"/>
+    <item itemType="lifetank" location="95,1"/>
+    <item itemType="lifetank" location="105,9"/>
+    <item itemType="lifetank" location="117,9"/>
+    <item itemType="lifetank" location="127,2"/>
+    <item itemType="lifetank" location="128,2"/>
+    <item itemType="lifetank" location="140,12"/>
+    <item itemType="lifetank" location="141,12"/>
+    <item itemType="lifetank" location="153,5"/>
+    <item itemType="lifetank" location="153,6"/>
+
+    <item itemType="lifetank" location="154,5"/>
+    <item itemType="lifetank" location="154,6"/>
+    <item itemType="lifetank" location="173,7"/>
+    <item itemType="lifetank" location="174,7"/>
+    <item itemType="lifetank" location="175,7"/>
+    <item itemType="lifetank" location="176,7"/>
+    <item itemType="lifetank" location="177,7"/>
+    <item itemType="lifetank" location="141,12"/>
+    <item itemType="lifetank" location="175,5"/>
+    <item itemType="lifetank" location="175,6"/>
+
+    <item itemType="lifetank" location="175,7"/>
+    <item itemType="lifetank" location="175,8"/>
+    <item itemType="lifetank" location="175,9"/>
+    <item itemType="lifetank" location="192,1"/>
+    <item itemType="lifetank" location="193,1"/>
+    <item itemType="lifetank" location="194,2"/>
+    <item itemType="lifetank" location="195,3"/>
+
+
+    <!-- Flag Pole -->
+    <item itemType="flagpole" location="196,4"/>
+
+    <!-- Enemies -->
+    <enemy enemyType="met" location="8,12"/>
+    <enemy enemyType="met" location="77,12" />
+    <enemy enemyType="met" location="85,4" />
+    <enemy enemyType="met" location="97,12" />
+    <enemy enemyType="met" location="99,12" />
+    <enemy enemyType="met" location="126,12"/>
+    <enemy enemyType="met" location="130,12"/>
+    <enemy enemyType="met" location="173,12"/>
+    
+    <enemy enemyType="wheelhog" location="108,12"/>
+    
+    <!-- WARNING -->
+    <enemy enemyType="beeCopter" location="202,8"/>
+
+    <parallax type="building1" position="8,1" layerDepth="0.2" />
+    <parallax type="building1" position="75,1" layerDepth="0.2" />
+    <parallax type="building1" position="99,1" layerDepth="0.2" />
+    <parallax type="building1" position="125,1" layerDepth="0.2" />
+    <parallax type="building1" position="150,1" layerDepth="0.2" />
+    <parallax type="building1" position="175,1" layerDepth="0.2" />
+    <parallax type="building1" position="200,1" layerDepth="0.2" />
+
+    <parallax type="building2" position="15,4" layerDepth="0.4" />
+    <parallax type="building2" position="40,4" layerDepth="0.4" />
+    <parallax type="building2" position="68,4" layerDepth="0.4" />
+    <parallax type="building2" position="105,4" layerDepth="0.4" />
+    <parallax type="building2" position="150,4" layerDepth="0.4" />
+    <parallax type="building2" position="173,4" layerDepth="0.4" />
+    <parallax type="building2" position="180,4" layerDepth="0.4" />
+    <parallax type="building2" position="190,4" layerDepth="0.4" />
+
+    <parallax type="building3" position="18,3" layerDepth="0.7" />
+    <parallax type="building3" position="30,3" layerDepth="0.75" />
+    <parallax type="building3" position="50,3" layerDepth="0.7" />
+    <parallax type="building3" position="76,3" layerDepth="0.7" />
+    <parallax type="building3" position="90,3" layerDepth="0.7" />
+    <parallax type="building3" position="117,3" layerDepth="0.75" />
+    <parallax type="building3" position="119,3" layerDepth="0.75" />
+    <parallax type="building3" position="140,3" layerDepth="0.7" />
+    <parallax type="building3" position="189,3" layerDepth="0.7" />
+    <parallax type="building3" position="203,3" layerDepth="0.7" />
+
+    <parallax type="building4" position="20,5" layerDepth="0.88" />
+    <parallax type="building4" position="60,5" layerDepth="0.88" />
+    <parallax type="building4" position="90,5" layerDepth="0.88" />
+    <parallax type="building4" position="120,5" layerDepth="0.88" />
+    <parallax type="building4" position="150,5" layerDepth="0.88" />
+    <parallax type="building4" position="180,5" layerDepth="0.88" />
+    <parallax type="building4" position="210,5" layerDepth="0.88" />
+
+    <parallax type="city" position="0,3" layerDepth="0.9999999" />
+    <parallax type="city" position="12,3" layerDepth="0.9999999" />
+    <parallax type="city" position="24,3" layerDepth="0.9999999" />
+    
+  </stage>
+  <stage id="stage1-2" background="backgrounds/starBG" boundary="125,75" music="music/music1-2" time="400" checkpoint="76,73">
+    <megaman location="3,73"/>
+  
+    <!--DAT LEVEL SKELETON-->
+    <platform blockType="floor2" location="0,74" size="125,1" />
+    <platform blockType="floor2" location="0,0" size="1,75" />
+    <platform blockType="floor2" location="0,0" size="125,1" />
+    <platform blockType="floor2" location="124,0" size="1,75" />
+    <platform blockType="floor2" location="24,15" size="25,60"/>
+    <platform blockType="floor2" location="74,0" size="25,60"/>
+    
+    <!--JUMP UP DEM PLATFORMS-->
+    <platform blockType="pyramid2" location="1,70" size="8,1"/>
+    <platform blockType="pyramid2" location="11,66" size="13,1"/>
+    <platform blockType="pyramid2" location="16,62" size="8,1"/>
+    <platform blockType="pyramid2" location="14,58" size="3,1"/>
+    <platform blockType="pyramid2" location="10,55" size="2,1"/>
+    <platform blockType="pyramid2" location="1,53" size="2,1"/>
+    <platform blockType="pyramid2" location="9,53" size="1,1"/>
+    <platform blockType="pyramid2" location="13,50" size="5,1"/>
+    <platform blockType="pyramid2" location="10,46" size="3,1"/>
+    <platform blockType="pyramid2" location="1,42" size="8,1"/>
+    <platform blockType="pyramid2" location="12,38" size="13,1"/>
+    <platform blockType="pyramid2" location="4,34" size="18,1"/>
+    <platform blockType="pyramid2" location="3,31" size="3,1"/>
+    <platform blockType="pyramid2" location="8,27" size="3,1"/>
+    <platform blockType="pyramid2" location="13,23" size="3,1"/>
+    <platform blockType="pyramid2" location="18,19" size="3,1"/>
+    <platform blockType="pyramid2" location="23,15" size="3,1"/>
+
+    <platform blockType="floor2" location="32,13" size="2,2"/>
+    <platform blockType="floor2" location="34,9" size="2,6"/>
+    <platform blockType="floor2" location="36,7" size="2,8"/>
+    
+    <!--Mind the gap!-->
+    <platform blockType="pyramid2" location="58,23" size="1,1"/>
+    <platform blockType="pyramid2" location="64,32" size="1,1"/>
+    <platform blockType="pyramid2" location="61,45" size="1,1"/>
+    <platform blockType="pyramid2" location="60,20" size="1,1"/>
+    <platform blockType="pyramid2" location="70,27" size="1,1"/>
+    <platform blockType="pyramid2" location="52,35" size="1,1"/>
+    <platform blockType="pyramid2" location="56,41" size="1,1"/>
+    <platform blockType="pyramid2" location="65,53" size="1,1"/>
+    <platform blockType="pyramid2" location="53,50" size="1,1"/>
+    <platform blockType="pyramid2" location="55,58" size="1,1"/>
+    <platform blockType="pyramid2" location="69,63" size="1,1"/>
+    <platform blockType="pyramid2" location="57,68" size="1,1"/>
+    <platform blockType="pyramid2" location="53,71" size="1,1"/>
+    
+    <!--Stuff on the ground-->
+    <platform blockType="pyramid2" location="80,71" size="4,3"/>
+    <platform blockType="pyramid2" location="84,67" size="5,7"/>
+    <platform blockType="pyramid2" location="89,71" size="4,3"/>
+    <platform blockType="pyramid2" location="104,72" size="1,2"/>
+    <platform blockType="pyramid2" location="108,72" size="1,2"/>
+    <platform blockType="pyramid2" location="113,70" size="1,4"/>
+    <platform blockType="pyramid2" location="118,66" size="1,8"/>
+    <platform blockType="pyramid2" location="123,70" size="1,4"/>
+    
+    <!--Goin' back up-->
+    <platform blockType="floor2" location="99,62" size="15,1"/>
+    <platform blockType="floor2" location="99,58" size="2,4"/>
+    <platform blockType="pyramid2" location="103,56" size="7,1"/>
+    <platform blockType="pyramid2" location="114,52" size="4,1"/>
+    <platform blockType="pyramid2" location="120,49" size="4,1"/>
+    <platform blockType="pyramid2" location="120,45" size="2,1"/>
+    <platform blockType="pyramid2" location="120,44" size="1,1"/>
+    <platform blockType="pyramid2" location="115,40" size="2,2"/>
+    <platform blockType="pyramid2" location="110,36" size="2,2"/>
+    <platform blockType="pyramid2" location="105,32" size="2,2"/>
+    <platform blockType="pyramid2" location="100,28" size="2,2"/>
+    <platform blockType="pyramid2" location="105,24" size="2,2"/>
+    <platform blockType="pyramid2" location="110,20" size="2,2"/>
+    <platform blockType="pyramid2" location="115,16" size="2,2"/>
+    <platform blockType="pyramid2" location="120,12" size="2,2"/>
+    <platform blockType="pyramid2" location="117,8" size="1,2"/>
+    <platform blockType="pyramid2" location="103,10" size="15,1"/>
+    
+    <block blockType="question" location="86,63">
+      <item itemType="zerohelmet" />
+    </block>
+    
+    <!--Hidden blocks for first ascent-->
+    <block blockType="hidden" location="10,69" />
+    <block blockType="hidden" location="9,65" />
+    <block blockType="hidden" location="14,61" />
+    <block blockType="hidden" location="12,57" />
+    <block blockType="hidden" location="18,57" />
+    <block blockType="hidden" location="8,54" />
+    <block blockType="hidden" location="13,54" />
+    <block blockType="hidden" location="7,52" />
+    <block blockType="hidden" location="11,52" />
+    <block blockType="hidden" location="4,52" />
+    <block blockType="hidden" location="11,49" />
+    <block blockType="hidden" location="19,49" />
+    <block blockType="hidden" location="8,45" />
+    <block blockType="hidden" location="14,45" />
+    <block blockType="hidden" location="10,41" />
+    <block blockType="hidden" location="10,37" />
+    <block blockType="hidden" location="2,33" />
+    <block blockType="hidden" location="23,33" />
+    <block blockType="hidden" location="1,30" />
+    <block blockType="hidden" location="7,30" />
+    <block blockType="hidden" location="6,26" />
+    <block blockType="hidden" location="12,26" />
+    <block blockType="hidden" location="11,22" />
+    <block blockType="hidden" location="17,22" />
+    <block blockType="hidden" location="16,18" />
+    <block blockType="hidden" location="22,18" />
+    <block blockType="hidden" location="21,14" />
+    <block blockType="hidden" location="30,12" />
+    <block blockType="hidden" location="32,8" />
+    <block blockType="hidden" location="34,6" />
+    <block blockType="hidden" location="39,6" />
+    
+    <!--Hidden blocks for the descent-->
+    <block blockType="hidden" location="56,22" />
+    <block blockType="hidden" location="60,22" />
+    <block blockType="hidden" location="62,31" />
+    <block blockType="hidden" location="66,31" />
+    <block blockType="hidden" location="59,44" />
+    <block blockType="hidden" location="63,44" />
+    <block blockType="hidden" location="58,19" />
+    <block blockType="hidden" location="62,19" />
+    <block blockType="hidden" location="68,26" />
+    <block blockType="hidden" location="72,26" />
+    <block blockType="hidden" location="50,34" />
+    <block blockType="hidden" location="54,34" />
+    <block blockType="hidden" location="54,40" />
+    <block blockType="hidden" location="58,40" />
+    <block blockType="hidden" location="63,52" />
+    <block blockType="hidden" location="67,52" />
+    <block blockType="hidden" location="51,49" />
+    <block blockType="hidden" location="55,49" />
+    <block blockType="hidden" location="53,57" />
+    <block blockType="hidden" location="57,57" />
+    <block blockType="hidden" location="67,62" />
+    <block blockType="hidden" location="71,62" />
+    <block blockType="hidden" location="55,67" />
+    <block blockType="hidden" location="59,67" />
+    <block blockType="hidden" location="51,70" />
+    <block blockType="hidden" location="55,70" />
+    
+    <!--Hidden blocks for the floor-->
+    <block blockType="hidden" location="78,70" />
+    <block blockType="hidden" location="82,66" />
+    <block blockType="hidden" location="90,66" />
+    <block blockType="hidden" location="94,70" />
+    <block blockType="hidden" location="102,71" />
+    <block blockType="hidden" location="106,71" />
+    <block blockType="hidden" location="110,71" />
+    <block blockType="hidden" location="111,69" />
+    <block blockType="hidden" location="115,69" />
+    <block blockType="hidden" location="116,65" />
+    <block blockType="hidden" location="120,65" />
+    <block blockType="hidden" location="121,69" />
+    <block blockType="hidden" location="84,62" />
+    <block blockType="hidden" location="88,62" />
+    
+    <!--Hidden blocks for the 2nd ascent-->
+    <block blockType="hidden" location="115,61" />
+    <block blockType="hidden" location="102,57" />
+    <block blockType="hidden" location="101,55" />
+    <block blockType="hidden" location="111,55" />
+    <block blockType="hidden" location="119,51" />
+    <block blockType="hidden" location="112,51" />
+    <block blockType="hidden" location="118,48" />
+    <block blockType="hidden" location="125,48" />
+    <block blockType="hidden" location="123,44" />
+    <block blockType="hidden" location="118,43" />
+    <block blockType="hidden" location="122,43" />
+    <block blockType="hidden" location="113,39" />
+    <block blockType="hidden" location="118,39" />
+    <block blockType="hidden" location="108,35" />
+    <block blockType="hidden" location="113,35" />
+    <block blockType="hidden" location="103,31" />
+    <block blockType="hidden" location="108,31" />
+    <block blockType="hidden" location="98,27" />
+    <block blockType="hidden" location="103,27" />
+    <block blockType="hidden" location="103,23" />
+    <block blockType="hidden" location="108,23" />
+    <block blockType="hidden" location="108,19" />
+    <block blockType="hidden" location="113,19" />
+    <block blockType="hidden" location="113,15" />
+    <block blockType="hidden" location="118,15" />
+    <block blockType="hidden" location="118,11" />
+    <block blockType="hidden" location="123,11" />
+    <block blockType="hidden" location="115,7" />
+    <block blockType="hidden" location="119,7" />
+    <block blockType="hidden" location="101,9" />
+
+    <!--Items-->
+    <item itemType="etank" location="2,52"/>
+
+    <item itemType="megamanhelmet" location="99,57"/>
+
+    <item itemType="lifetank" location="58,22"/>
+    <item itemType="lifetank" location="64,31"/>
+    <item itemType="lifetank" location="61,44"/>
+    <item itemType="lifetank" location="60,19"/>
+    <item itemType="lifetank" location="70,26"/>
+    <item itemType="lifetank" location="52,34"/>
+    <item itemType="lifetank" location="56,40"/>
+    <item itemType="lifetank" location="65,52"/>
+    <item itemType="lifetank" location="53,49"/>
+    <item itemType="lifetank" location="55,57"/>
+    <item itemType="lifetank" location="69,62"/>
+    <item itemType="lifetank" location="57,67"/>
+    <item itemType="lifetank" location="53,70"/>
+    
+    <item itemType="lifetank" location="120,69"/>
+    <item itemType="lifetank" location="120,70"/>
+    <item itemType="lifetank" location="120,71"/>
+    <item itemType="lifetank" location="120,72"/>
+    <item itemType="lifetank" location="121,69"/>
+    <item itemType="lifetank" location="121,70"/>
+    <item itemType="lifetank" location="121,71"/>
+    <item itemType="lifetank" location="121,72"/>
+    
+    <item itemType="flagpole" location="106,1"/>
+    
+    <!--Enemies-->
+    <enemy enemyType="met" location="16,73"/>
+    <enemy enemyType="met" location="14,73"/>
+    <enemy enemyType="met" location="12,73"/>
+
+    <enemy enemyType="wheelhog" location="21,61"/>
+    <enemy enemyType="wheelhog" location="9,33"/>
+    <enemy enemyType="wheelhog" location="13,33"/>
+    <enemy enemyType="wheelhog" location="17,33"/>
+
+    <enemy enemyType="beeCopter" location="40,8"/>
+    <enemy enemyType="beeCopter" location="111,5"/>
+
+    <enemy enemyType="met" location="58,73"/>
+    <enemy enemyType="met" location="60,73"/>
+    <enemy enemyType="met" location="62,73"/>
+    
+  </stage>
+  <stage id="stage1-3" background="backgrounds/seriousBackground" boundary="30,29" music="music/music1-3" time="999" checkpoint="0,0">
+    
+    <megaman location="2,10"/>    
+    <platform location="2,11" blockType="brick" size="2,1"/>
+    <platform location="2,15" blockType="brick" size="4,1"/>
+    <platform location="2,19" blockType="brick" size="6,1"/>
+    <platform location="2,23" blockType="brick" size="8,1"/>
+    <platform location="2,25" blockType="brick" size="10,1"/>
+
+    <block blockType="hidden" location="4,10"/>
+    <block blockType="hidden" location="0,10"/>
+
+    <block blockType="hidden" location="6,14"/>
+    <block blockType="hidden" location="0,14"/>
+
+    <block blockType="hidden" location="8,18"/>
+    <block blockType="hidden" location="0,18"/>
+
+    <block blockType="hidden" location="10,22"/>
+    <block blockType="hidden" location="0,22"/>
+
+    <block blockType="hidden" location="12,26"/>
+    <block blockType="hidden" location="0,26"/>
+
+    <item itemType="lifetank" location="12,15"/>
+    <item itemType="lifetank" location="12,16"/>
+    <item itemType="lifetank" location="12,17"/>
+    <item itemType="lifetank" location="12,18"/>
+    <item itemType="lifetank" location="12,19"/>
+    <item itemType="lifetank" location="12,20"/>
+    <item itemType="lifetank" location="12,21"/>
+    <item itemType="lifetank" location="12,22"/>
+    <item itemType="lifetank" location="12,23"/>
+    <item itemType="lifetank" location="12,24"/>
+    <item itemType="lifetank" location="12,25"/>
+    <item itemType="lifetank" location="12,26"/>
+    <item itemType="lifetank" location="12,27"/>
+    <item itemType="lifetank" location="12,28"/>
+    <item itemType="lifetank" location="12,29"/>
+    
+    <item itemType="lifetank" location="13,15"/>
+    <item itemType="lifetank" location="13,16"/>
+    <item itemType="lifetank" location="13,17"/>
+    <item itemType="lifetank" location="13,18"/>
+    <item itemType="lifetank" location="13,19"/>
+    <item itemType="lifetank" location="13,20"/>
+    <item itemType="lifetank" location="13,21"/>
+    <item itemType="lifetank" location="13,22"/>
+    <item itemType="lifetank" location="13,23"/>
+    <item itemType="lifetank" location="13,24"/>
+    <item itemType="lifetank" location="13,25"/>
+    <item itemType="lifetank" location="13,26"/>
+    <item itemType="lifetank" location="13,27"/>
+    <item itemType="lifetank" location="13,28"/>
+    <item itemType="lifetank" location="13,29"/>
+
+    <item itemType="lifetank" location="14,15"/>
+    <item itemType="lifetank" location="14,16"/>
+    <item itemType="lifetank" location="14,17"/>
+    <item itemType="lifetank" location="14,18"/>
+    <item itemType="lifetank" location="14,19"/>
+    <item itemType="lifetank" location="14,20"/>
+    <item itemType="lifetank" location="14,21"/>
+    <item itemType="lifetank" location="14,22"/>
+    <item itemType="lifetank" location="14,23"/>
+    <item itemType="lifetank" location="14,24"/>
+    <item itemType="lifetank" location="14,25"/>
+    <item itemType="lifetank" location="14,26"/>
+    <item itemType="lifetank" location="14,27"/>
+    <item itemType="lifetank" location="14,28"/>
+    <item itemType="lifetank" location="14,29"/>
+
+    <item itemType="lifetank" location="15,15"/>
+    <item itemType="lifetank" location="15,16"/>
+    <item itemType="lifetank" location="15,17"/>
+    <item itemType="lifetank" location="15,18"/>
+    <item itemType="lifetank" location="15,19"/>
+    <item itemType="lifetank" location="15,20"/>
+    <item itemType="lifetank" location="15,21"/>
+    <item itemType="lifetank" location="15,22"/>
+    <item itemType="lifetank" location="15,23"/>
+    <item itemType="lifetank" location="15,24"/>
+    <item itemType="lifetank" location="15,25"/>
+    <item itemType="lifetank" location="15,26"/>
+    <item itemType="lifetank" location="15,27"/>
+    <item itemType="lifetank" location="15,28"/>
+    <item itemType="lifetank" location="15,29"/>
+
+    <item itemType="lifetank" location="16,15"/>
+    <item itemType="lifetank" location="16,16"/>
+    <item itemType="lifetank" location="16,17"/>
+    <item itemType="lifetank" location="16,18"/>
+    <item itemType="lifetank" location="16,19"/>
+    <item itemType="lifetank" location="16,20"/>
+    <item itemType="lifetank" location="16,21"/>
+    <item itemType="lifetank" location="16,22"/>
+    <item itemType="lifetank" location="16,23"/>
+    <item itemType="lifetank" location="16,24"/>
+    <item itemType="lifetank" location="16,25"/>
+    <item itemType="lifetank" location="16,26"/>
+    <item itemType="lifetank" location="16,27"/>
+    <item itemType="lifetank" location="16,28"/>
+    <item itemType="lifetank" location="16,29"/>
+
+    <item itemType="lifetank" location="17,15"/>
+    <item itemType="lifetank" location="17,16"/>
+    <item itemType="lifetank" location="17,17"/>
+    <item itemType="lifetank" location="17,18"/>
+    <item itemType="lifetank" location="17,19"/>
+    <item itemType="lifetank" location="17,20"/>
+    <item itemType="lifetank" location="17,21"/>
+    <item itemType="lifetank" location="17,22"/>
+    <item itemType="lifetank" location="17,23"/>
+    <item itemType="lifetank" location="17,24"/>
+    <item itemType="lifetank" location="17,25"/>
+    <item itemType="lifetank" location="17,26"/>
+    <item itemType="lifetank" location="17,27"/>
+    <item itemType="lifetank" location="17,28"/>
+    <item itemType="lifetank" location="17,29"/>
+
+    <item itemType="flagpole" location="28,20"/>
+
+    <enemy enemyType="beeCopter" location="21,10"/>
+    <enemy enemyType="beeCopter" location="21,17"/>
+    <enemy enemyType="beeCopter" location="21,24"/>
+    
+    
+  </stage>
+  <menu id="start" initialChoice ="stage1-1" canGoBack="false" background="backgrounds/plainBG">
+    <text type="string" value="MEGA MAN ... clone." position="2,1" />
+    <choice id="stage1-1" text="Stage 1-1" destination="stage1-1" position="1,5" down="stage1-2" />
+    <choice id="stage1-2" text="Stage 1-2" destination="stage1-2" position="1,7" down="stage1-3" up="stage1-1" />
+    <choice id="stage1-3" text="Stage 1-3" destination="stage1-3" position="1,9" up="stage1-2" />
+  </menu>
+  <menu id="gameover" initialChoice="tryAgain" canGoBack="false" background="backgrounds/plainBG" >
+    <text type="string" value="GAME OVER" position="9,1" />
+    <text type="score" position="8,3" />
+    <text type="lives" position="8,5" />
+    <text type="time" position="8,7" />
+    <choice id="tryAgain" text="Try Again" destination="stage1-1" position="3,11" right="toStart" />
+    <choice id="toStart" text="Return to Start" destination="start" position="11,11" left="tryAgain" />
+  </menu>
+  <menu id="victory" initialChoice="continue" canGoBack="false" background="backgrounds/plainBG">
+    <text type="string" value="VICTORY!!" position="9,1" />
+    <text type="score" position="8,3" />
+    <text type="lives" position="8,5" />
+    <text type="time" position="8,7" />
+    <choice id="continue" text="Continue" destination="start" position="9,11" />
+  </menu>
+  <menu id="pause" initialChoice="void" canGoBack="true" background="backgrounds/plainBG">
+    <text type="string" value="-- PAUSED --" position="8,1" />
+  </menu>
+</megamangame>

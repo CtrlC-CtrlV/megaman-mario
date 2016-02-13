@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C8165071-06E0-480A-BFDF-F66D912E61D4}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MegaManClone</RootNamespace>
+    <AssemblyName>MegamanClone</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>59158ce1-9d0d-4a10-b786-024420062ad8</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MegaManClone.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\ActivateMenuCommand.cs" />
+    <Compile Include="Commands\BackMenuCommand.cs" />
+    <Compile Include="Commands\DownCommand.cs" />
+    <Compile Include="Commands\DownMenuCommand.cs" />
+    <Compile Include="Commands\LeftCommand.cs" />
+    <Compile Include="Commands\LeftMenuCommand.cs" />
+    <Compile Include="Commands\MuteCommand.cs" />
+    <Compile Include="Commands\PauseCommand.cs" />
+    <Compile Include="Commands\RightCommand.cs" />
+    <Compile Include="Commands\RightMenuCommand.cs" />
+    <Compile Include="Commands\BusterCommand.cs" />
+    <Compile Include="Commands\UpCommand.cs" />
+    <Compile Include="Commands\ResetCommand.cs" />
+    <Compile Include="Commands\UpMenuCommand.cs" />
+    <Compile Include="Controllers\ControllerFactory.cs" />
+    <Compile Include="Entities\Block.cs" />
+    <Compile Include="Entities\BlockStates\BlockBreakingState.cs" />
+    <Compile Include="Entities\BlockStates\BlockCollidingState.cs" />
+    <Compile Include="Entities\BlockStates\BlockNormalState.cs" />
+    <Compile Include="Entities\BlockStates\BlockStateHelper.cs" />
+    <Compile Include="Entities\BlockStates\BlockStateMachine.cs" />
+    <Compile Include="Entities\BlockStates\BlockState.cs" />
+    <Compile Include="Entities\BlockStates\IBlockState.cs" />
+    <Compile Include="Entities\Buster.cs" />
+    <Compile Include="Entities\Enemy.cs" />
+    <Compile Include="HighScore.cs" />
+    <Compile Include="Entities\ICollidable.cs" />
+    <Compile Include="Entities\MegamanStates\ActionState.cs" />
+    <Compile Include="Entities\MegamanStates\IMegamanActionState.cs" />
+    <Compile Include="Entities\MegamanStates\IMegamanPowerUpState.cs" />
+    <Compile Include="Entities\Megaman.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanActionState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanFallingState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanSmallState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanPowerUpStateMachine.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanActionStateMachine.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanCrouchingState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanDeadState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanFalconState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanIdleState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanJumpingState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanLargeState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanRunningState.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanStateHelper.cs" />
+    <Compile Include="Entities\MegamanStates\MegamanZeroState.cs" />
+    <Compile Include="Controllers\GamePadController.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Controllers\IController.cs" />
+    <Compile Include="Controllers\KeyboardController.cs" />
+    <Compile Include="Sprites\Background\Building1.cs" />
+    <Compile Include="Sprites\Background\Building2.cs" />
+    <Compile Include="Sprites\Background\Building4.cs" />
+    <Compile Include="Sprites\Background\Building3.cs" />
+    <Compile Include="Sprites\Background\City.cs" />
+    <Compile Include="Sprites\Background\ParallaxSpriteFactory.cs" />
+    <Compile Include="Sprites\BlockSprites\BlockSpriteFactory.cs" />
+    <Compile Include="Sprites\BlockSprites\Brick.cs" />
+    <Compile Include="Sprites\BlockSprites\BrickBreaking.cs" />
+    <Compile Include="Sprites\BlockSprites\Floor2.cs" />
+    <Compile Include="Sprites\BlockSprites\Pyramid2.cs" />
+    <Compile Include="Sprites\BlockSprites\Floor.cs" />
+    <Compile Include="Sprites\BlockSprites\Hidden.cs" />
+    <Compile Include="Sprites\BlockSprites\Pyramid.cs" />
+    <Compile Include="Sprites\BlockSprites\Question.cs" />
+    <Compile Include="Sprites\BlockSprites\Used.cs" />
+    <Compile Include="Sprites\EnemySprites\BeeCopter.cs" />
+    <Compile Include="Sprites\EnemySprites\WheelhogRolling.cs" />
+    <Compile Include="Sprites\EnemySprites\EnemySpriteFactory.cs" />
+    <Compile Include="Sprites\EnemySprites\MetWalking.cs" />
+    <Compile Include="Sprites\HUD.cs" />
+    <Compile Include="Sprites\ItemSprites\Flagpole.cs" />
+    <Compile Include="Sprites\ItemSprites\HiddenETank.cs" />
+    <Compile Include="Sprites\ItemSprites\HiddenFalconPowerup.cs" />
+    <Compile Include="Sprites\ItemSprites\HiddenItem.cs" />
+    <Compile Include="Sprites\ItemSprites\HiddenLifeTank.cs" />
+    <Compile Include="Sprites\ItemSprites\HiddenMegamanHelmet.cs" />
+    <Compile Include="Sprites\ItemSprites\HiddenZeroHelmet.cs" />
+    <Compile Include="Sprites\ItemSprites\ItemSpriteFactory.cs" />
+    <Compile Include="Sprites\ItemSprites\MegamanHelmet.cs" />
+    <Compile Include="Sprites\ItemSprites\ETank.cs" />
+    <Compile Include="Sprites\ItemSprites\LifeTank.cs" />
+    <Compile Include="Sprites\ItemSprites\FalconPowerup.cs" />
+    <Compile Include="Sprites\ItemSprites\ZeroHelmet.cs" />
+    <Compile Include="Sprites\MegamanSprites\FalconFalling.cs" />
+    <Compile Include="Sprites\MegamanSprites\LargeFalling.cs" />
+    <Compile Include="Sprites\MegamanSprites\MMBullet.cs" />
+    <Compile Include="Sprites\MegamanSprites\SmallFalling.cs" />
+    <Compile Include="Sprites\MegamanSprites\SmallIdle.cs" />
+    <Compile Include="Sprites\MegamanSprites\SmallJumping.cs" />
+    <Compile Include="Sprites\SmallRunning.cs" />
+    <Compile Include="Sprites\MegamanSprites\ZeroFalling.cs" />
+    <Compile Include="Sprites\MenuSprites\ITextSource.cs" />
+    <Compile Include="Sprites\MenuSprites\MenuChoice.cs" />
+    <Compile Include="Sprites\MenuSprites\MenuText.cs" />
+    <Compile Include="Sprites\MenuSprites\LivesTextSource.cs" />
+    <Compile Include="Sprites\MenuSprites\ScoreTextSource.cs" />
+    <Compile Include="Sprites\MenuSprites\StringTextSource.cs" />
+    <Compile Include="Sprites\MenuSprites\TimeTextSource.cs" />
+    <Compile Include="Sprites\ParallaxSprite.cs" />
+    <Compile Include="Stages\Camera.cs" />
+    <Compile Include="Stages\CollisionHelper.cs" />
+    <Compile Include="Stages\CollisionSide.cs" />
+    <Compile Include="Stages\Menu.cs" />
+    <Compile Include="Stages\Scene.cs" />
+    <Compile Include="Stages\Stage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="MegamanGame.cs" />
+    <Compile Include="Commands\QuitCommand.cs" />
+    <Compile Include="Sprites\ISprite.cs" />
+    <Compile Include="Sprites\MegamanSprites\Dead.cs" />
+    <Compile Include="Sprites\MegamanSprites\FalconRunning.cs" />
+    <Compile Include="Sprites\MegamanSprites\FalconJumping.cs" />
+    <Compile Include="Sprites\MegamanSprites\FalconIdle.cs" />
+    <Compile Include="Sprites\MegamanSprites\LargeCrouching.cs" />
+    <Compile Include="Sprites\MegamanSprites\ZeroCrouching.cs" />
+    <Compile Include="Sprites\MegamanSprites\ZeroJumping.cs" />
+    <Compile Include="Sprites\MegamanSprites\FalconCrouching.cs" />
+    <Compile Include="Sprites\MegamanSprites\ZeroRunning.cs" />
+    <Compile Include="Sprites\MegamanSprites\ZeroIdle.cs" />
+    <Compile Include="Sprites\MegamanSprites\LargeJumping.cs" />
+    <Compile Include="Sprites\MegamanSprites\LargeRunning.cs" />
+    <Compile Include="Sprites\MegamanSprites\LargeIdle.cs" />
+    <Compile Include="Sprites\MegamanSprites\MegamanSpriteFactory.cs" />
+    <Compile Include="Sprites\Sprite.cs" />
+    <Compile Include="Stages\StageFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code Reviews\2015-04-26_Baker_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-04-26_Baker_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-04-26_Clark_ReadabilityReview - Copy.txt" />
+    <Content Include="Code Reviews\2015-04-26_Clark_QualityReview - Copy.txt" />
+    <Content Include="Code Reviews\2015-04-14_Baker_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-04-14_Baker_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-04-14_Clark_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-04-14_Clark_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Baker_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Baker_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Malkan_Code_Quality.txt" />
+    <Content Include="Code Reviews\2015-03-10_Malkan_Code_Quality.txt" />
+    <Content Include="Code Reviews\2015-03-31_Malkan_Readability.txt" />
+    <Content Include="Code Reviews\2015-03-10_Reynolds_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Clark_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Clark_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-03-10_Headings_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-10_Headings_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-03-10_Clark_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Reynolds_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-04-26_Malkan_Code_Quality.txt" />
+    <Content Include="Code Reviews\2015-04-14_Malkan_Code_Quality.txt" />
+    <Content Include="Code Reviews\2015-04-26_Malkan_Readability.txt" />
+    <Content Include="Code Reviews\2015-04-14_Malkan_Readability.txt" />
+    <Content Include="Code Reviews\2015-04-14_Reynolds_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-04-26_Reynolds_QualityReview.txt" />
+    <Content Include="Code Reviews\QualityTemplate.txt" />
+    <Content Include="Code Reviews\2015-03-10_Malkan_Readability.txt" />
+    <Content Include="Code Reviews\2015-03-10_Reynolds_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-03-10_Clark_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Reynolds_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-04-14_Reynolds_Readability.txt" />
+    <Content Include="Code Reviews\2015_04_26_Reynolds_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\ReadabilityTemplate.txt" />
+    <Content Include="Code Reviews\2015-03-31_Headings_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-03-31_Headings_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-04-14_Headings_QualityTemplate.txt" />
+    <Content Include="Code Reviews\2015-04-14_Headings_ReadabilityReview.txt" />
+    <Content Include="Code Reviews\2015-04-26_Headings_QualityReview.txt" />
+    <Content Include="Code Reviews\2015-04-26_Headings_ReadabilityReview.txt" />
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MegaManCloneContent\MegamanCloneContent.contentproj">
+      <Project>{36080234-CFF8-477B-A45C-49E1CE7261D0}</Project>
+      <Name>MegamanCloneContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

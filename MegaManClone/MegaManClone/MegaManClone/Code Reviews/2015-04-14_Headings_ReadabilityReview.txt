@@ -1,0 +1,9 @@
+﻿Author: Jared Headings
+Date: 4/14/2015
+Sprint: 4
+Name of File: ParallaxSpriteFactory
+Author of File: Bobby Reynolds
+Minutes Reviewed: 15
+
+All of the methods, variable names, and fields make sense and lend themselves to knowing what the class does and how it functions.
+There is one comment in the code and it only explains what the else condition does, so the code shouldn't have any issues with being misunderstood in the long term.

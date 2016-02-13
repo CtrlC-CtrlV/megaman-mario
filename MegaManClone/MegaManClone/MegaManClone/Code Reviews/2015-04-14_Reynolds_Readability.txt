@@ -1,0 +1,12 @@
+﻿Code Readability Review
+
+Author:           Bobby Reynolds
+Date:             2015-04-14
+Sprint:           4
+Name of file:     config.xml
+Author of file:   Jared Headings
+Minutes reviewed: 10
+
+Wow this thing gets long in a hurry. I like that we are commenting and using newlines
+	in a sane fashion. Like I said in class earlier... It might be a neat little
+	weekend project for me to build some graphical tool to do all this work.

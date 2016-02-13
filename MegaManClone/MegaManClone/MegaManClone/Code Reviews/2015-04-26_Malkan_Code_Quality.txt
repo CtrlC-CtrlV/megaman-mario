@@ -1,0 +1,14 @@
+﻿Code Quality Review
+
+Author:	Nikit Malkan
+Date: 	28 April 2015
+Sprint:	 5
+Name of file: 
+	Config.xml (Levels 1-1, 1-2, 1-3)
+Author of file:
+	Jared Headings
+Specific comments on quality:
+	- Very nice improvement on levels, especially level 1-2. Levels are decently long and true to Megaman spirit, fustratingly difficult.
+
+Hypothetical improvement:
+	- Perhaps more items to help the player?

@@ -1,0 +1,9 @@
+﻿Code Quality Review
+
+Author: Jared Headings
+Date: 03/10/2015
+Sprint: 2
+Name of file: StageFactory.cs
+Author of file: Nikit Malkan
+
+Has a very high cyclomatic complexity of 55, suggesting a very high, difficult to test module. I would suggest splitting the code into 3-5 other files that would be easier to test and significantly smaller. This would help our solution by making any changes or examinations into this module easier to execute.

@@ -1,0 +1,15 @@
+﻿Code Quality Review
+
+Author:         Bobby Reynolds
+Date:           2015-04-14
+Sprint:         4
+Name of file:   ETank.cs, MetWalking.cs, and all other sprite endpoints with sound effects
+Author of file: Nikit Malkan
+
+Simple implementation of sound effects at exactly the right spot in the stack, although the particular sound
+	made by the large MM when he falls can get kinda annoying ;)
+
+I don't think it is necessary to save a reference to the whole ContentManager in the constructor. Instead,
+	load the necessary content in the constructor and save it for later use. This has the added benefit of
+	re-using the same SoundEffect object every time a sound is played rather than calling content.Load
+	every time.

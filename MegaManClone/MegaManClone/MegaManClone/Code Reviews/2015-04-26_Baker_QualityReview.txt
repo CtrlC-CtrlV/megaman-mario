@@ -1,0 +1,9 @@
+﻿Code Quality Review
+
+Author: Anna Baker
+Date: 4/26/16
+Sprint: 5
+Name of file:  Buster.cs
+Author of file:  Nikit Malkan et. al
+
+Specific comments on quality.  Easy, clean and simple addition to make points collectable for Megaman.

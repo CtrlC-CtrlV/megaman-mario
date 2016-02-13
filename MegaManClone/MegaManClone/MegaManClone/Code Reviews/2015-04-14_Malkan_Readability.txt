@@ -1,0 +1,13 @@
+﻿Code Readability Review
+
+Author:	 Nikit Malkan
+Date:	14 April 2015
+Sprint:	4
+Name of file:
+	Colleciton of Hidden Items.
+Author of file:	  Bobby Reynolds
+Minutes reviewed: 10
+
+Specific comments on readability.
+	- Code is clean and readable.
+	- Majority of methods are same as visible counterparts.

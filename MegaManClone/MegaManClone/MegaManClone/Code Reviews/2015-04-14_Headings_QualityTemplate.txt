@@ -1,0 +1,9 @@
+﻿Author: Jared Headings
+Date: 4/14/2015
+Sprint: 4
+Name of File: ParallaxSpriteFactory
+Author of File: Bobby Reynolds
+
+This code seems very high quality, with a cyclomatic complexity of only 6 with a very low amount (9) of coupling. It's a simple class that does what it needs to do without being overtly clunky and complex. Very good quality.
+
+I really am not sure if there is any room for improvement, as there are no code smells that I can see that are obvious, and the code metrics are where they should be.

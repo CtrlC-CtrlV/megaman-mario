@@ -1,0 +1,16 @@
+﻿Code Quality Review
+
+Author:Shane Clark(.2112)
+Date:4/14/2015
+Sprint:Sprint 4
+Name of file:HUD.cs
+Author of file: Bobby Reynolds
+Minutes Reviewed: 10 minutes
+
+Specific comments on quality.
+Good
+I like that the only responsibility of the HUD it to draw the information.
+
+Hypothetical improvement.
+Instead of hardcoded positions, the position could be determined by being placed at a certain percentage of the width/height of the viewport. 
+This would help with scaling and different resolutions.

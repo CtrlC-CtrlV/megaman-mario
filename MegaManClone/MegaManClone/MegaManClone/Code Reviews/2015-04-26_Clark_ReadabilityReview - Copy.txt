@@ -1,0 +1,15 @@
+﻿Code Readability Review
+
+Author:Shane Clark(.2112)
+Date:4/26/2015
+Sprint:Sprint 5
+Name of file:
+Author of file:
+Minutes reviewed: 10 minutes
+
+Specific comments on readability:
++ Collapsible regions allow for easy access and navigation.
++ Use of boolean flags makes for easier reading/understanding.
++ Code is broken into appropriate methods (fire, charge, update).
+
+-

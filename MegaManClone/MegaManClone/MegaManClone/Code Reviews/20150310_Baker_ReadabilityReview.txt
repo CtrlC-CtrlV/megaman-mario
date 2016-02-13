@@ -1,0 +1,15 @@
+﻿Code Readability Review
+
+Author: Anna
+Date: 3/10/15
+Sprint: 2
+Name of file: Megman.cs
+Author of file:  ?? Mostly Bobby probably.
+Minutes reviewed: 10
+
+Specific comments on readability.  
+	- Overall pretty readable. Starting to get pretty long, though, in terms of LOCs, not sure how important of a metric that is though, especially within a game.  
+	- One line implementations look pretty :)
+	- Variables are obviously very self-documenting, which is great and makes it extremely easy to read.
+	- Documentation would be cool for when we hover over methods and whatnot
+	- Transitions should probably all be organized together

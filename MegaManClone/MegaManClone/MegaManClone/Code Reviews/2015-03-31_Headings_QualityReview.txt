@@ -1,0 +1,10 @@
+﻿Author: Jared Headings
+Date: 03-31-2015
+Sprint: 3
+Name of File: Camera.cs
+Author of File: Bobby Reynolds
+
+Has a low cyclomatic complexity of 10, and has rather low coupling as well (9 classes). For a relatively small class (only 26 LOC) it's a pretty clean and sensible approach to the problem.
+The ability to move not only left and right but also up and down is a very nice addition that could be useful in sprint 5.
+
+The only hypothetical improvements I could think of would be possibly more descriptive variable names (backgroundFrame isn't super clear) but that may fall under readability. It's good code.

@@ -1,0 +1,13 @@
+﻿Code Readability Review
+
+Author:Shane Clark(.2112)
+Date:4/14/2015
+Sprint:Sprint 4
+Name of file:HUD.cs
+Author of file:Bobby Reynolds
+Minutes reviewed: 10 minutes
+
+Specific comments on readability:
++ Collapsible regions keep the properties and the constructor out of the way.
++ the string values for coins,lives,etc are formatted and stored and then used in the spriteBatch.Draw method. Thus the draw method is easier to dissect and understand.
+

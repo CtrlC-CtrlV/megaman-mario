@@ -1,0 +1,14 @@
+﻿Code Readability Review
+
+Author:	 Nikit Malkan
+Date:	31 March 2015
+Sprint:	3
+Name of file:
+	Camera.cs
+Author of file:	  Bobby Reynolds
+Minutes reviewed: 5
+
+Specific comments on readability.
+	- Code is readable.
+	- Camera works as expected.
+	- Get for offset is extremely useful.

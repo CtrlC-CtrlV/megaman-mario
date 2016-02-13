@@ -1,0 +1,15 @@
+﻿Code Readability Review
+
+Author:Shane Clark(.2112)
+Date:3/31/2015
+Sprint:Sprint 3
+Name of file:MegamanActionState.cs
+Author of file:Bobby Reynolds
+Minutes reviewed: 10 minutes
+
+Specific comments on readability:
++ Collapsible regions keep the properties and the constructor out of the way.
++ The numerous methods are short enough to be easily digested and understood.
++ The use of the CollisionHelper simplifies the BlockMovement method and makes it easy to understand the different collision cases.
+
+-Without digging deeper into the code, it can be a little confusing to see empty methods.

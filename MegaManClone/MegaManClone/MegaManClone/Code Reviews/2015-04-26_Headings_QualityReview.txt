@@ -1,0 +1,9 @@
+﻿Author: Jared Headings
+Date: 4/26/15
+Sprint: 5
+Name of File: Buster.cs
+Author of File: Nikit Malkan/Bobby Reynolds/Shane Clark
+
+Has a cyclomatic complexity of 11 that is easy to maintain, with well encapsulated methods that are sensibly implemented with loops and conditionals that aren't overly complex.
+
+There is really no room for improvement of this class in my opinion. It seems well constructed with maintainable code.

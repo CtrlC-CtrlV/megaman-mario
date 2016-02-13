@@ -1,0 +1,14 @@
+﻿Code Quality Review
+
+Author:         Bobby Reynolds
+Date:           2015-03-31
+Sprint:         3
+Name of file:   MegamanTest/*.cs
+Author of file: Anna Baker
+
+Very clean, straightforward test fixtures.
+
+We should confer about getting a much more comprehensive set in the next sprint.
+
+Also, when asserting that two things are equal, make sure you check for equality of type, not
+equality of object.

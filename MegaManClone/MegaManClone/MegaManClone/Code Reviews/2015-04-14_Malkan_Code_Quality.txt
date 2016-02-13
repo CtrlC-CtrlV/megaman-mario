@@ -1,0 +1,14 @@
+﻿Code Quality Review
+
+Author:	Nikit Malkan
+Date: 	14 April 2015
+Sprint:	 4
+Name of file: 
+	Collection of hidden items.
+Author of file:
+	Bobby Reynolds
+Specific comments on quality:
+	- Implementation works. Is more smooth then previous implementation.
+
+Hypothetical improvement:
+	- Make use of super class to avoid code duplication such as adding points?

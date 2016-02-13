@@ -1,0 +1,16 @@
+﻿Code Quality Review
+
+Author:Shane Clark(.2112)
+Date:3/31/2015
+Sprint:Sprint 3
+Name of file:MegamanActionState.cs
+Author of file:Bobby Reynolds
+Minutes reviewed: 10 minutes
+
+Specific comments on quality.
+I like it!
+
+Hypothetical improvement.
+CollisionMargin property isn't being used. 
+
+Does the switch statement in BlockMovement need a default case?

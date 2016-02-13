@@ -1,0 +1,14 @@
+﻿Code Quality Review
+
+Author:  Anna			
+Date:  3/31/15
+Sprint:  3
+Name of file: ParallaxSprite.cs
+Author of file:  Bobby
+
+Specific comments on quality.
+
+Accounting for the quadratic and exponential parallaxing in the constructor is a nice touch.  There are 6 parameters needed for constructor though, any more than that and I'd say too many.
+
+
+Hypothetical improvement.

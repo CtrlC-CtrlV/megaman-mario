@@ -1,0 +1,21 @@
+﻿Code Quality Review
+
+Author:	Nikit Malkan
+Date: 	10 March 2015
+Sprint:	 2
+Name of file: 
+	4 Megaman Test Files
+	- BlockCollision.cs
+	- EnemyColission.cs
+	- ItemCollision.cs
+	- UnitTest1.cs
+Author of file: Anna Baker w/modifications by Shane Clark
+
+Specific comments on quality:
+	- Readable
+	- 2/7 tests currently pass.
+	- Some methods not yet completed.
+
+Hypothetical improvement:
+	- Potentially automate simluated user input to cause collisions between megaman and various objects.
+	- Potentially start megaman in a falling state for some instances to easy testing of colission with tops of objects?

@@ -1,0 +1,11 @@
+﻿Code Readability Review
+
+Author:           Bobby Reynolds
+Date:             2015-03-31
+Sprint:           3
+Name of file:     config.xml
+Author of file:   Jared Headings
+Minutes reviewed: 5
+
+Good job separating sections of blocks and keeping this file from becoming an opaque monster. See
+recent CS's for examples of comments.

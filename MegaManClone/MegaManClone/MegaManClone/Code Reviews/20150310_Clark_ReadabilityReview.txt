@@ -1,0 +1,17 @@
+﻿Code Readability Review
+
+Author:Shane Clark(.2112)
+Date:3/10/2015
+Sprint:Sprint 2
+Name of file:StageFactory.cs
+Author of file:Nikit Malkan
+Minutes reviewed: 10 minutes
+
+Specific comments on readability:
++ Collapsible regions keep the properties and the constructor out of the way.
++ They also make the foreach loop easier to look at and dissect without being terribly overwhelmed by the large if/else cases.
++ Several methods were created which helps to break up the code into manageable chunks.
+
+-Possibly rearrange methods so that methods with similar tasks (DetermineItemType, DetermineBlockType, etc) are closer together.
+	This would make it a little easier to digest all of the methods that the class has. 
+-Another option would be to combine some of the similarly tasked methods into a new class to break up the longer StageFactory class.

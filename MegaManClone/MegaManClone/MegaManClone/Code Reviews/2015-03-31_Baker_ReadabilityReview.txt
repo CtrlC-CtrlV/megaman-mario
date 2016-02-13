@@ -1,0 +1,12 @@
+﻿Code Readability Review
+
+Author:  Anna
+Date:  3/31/15
+Sprint:  3
+Name of file:  config.xml
+Author of file:  Jared
+Minutes reviewed:  5
+
+Specific comments on readability.  
+
+Could use some general comments (maybe), other than that I think it's as good as it can get for XML and what constraints you had.. There isn't any redundancy really as far as readability goes.   I'd like to map this to an xslt so we can add points to the different items.

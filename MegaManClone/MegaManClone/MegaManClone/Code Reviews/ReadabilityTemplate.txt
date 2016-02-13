@@ -1,0 +1,10 @@
+﻿Code Readability Review
+
+Author:
+Date:
+Sprint:
+Name of file:
+Author of file:
+Minutes reviewed:
+
+Specific comments on readability.

@@ -1,0 +1,10 @@
+﻿Code Readability Review
+
+Author:           Bobby Reynolds
+Date:             2015-03-10
+Sprint:           2
+Name of file:     
+Author of file:   Baker 
+Minutes reviewed: 10
+
+Specific comments on readability.

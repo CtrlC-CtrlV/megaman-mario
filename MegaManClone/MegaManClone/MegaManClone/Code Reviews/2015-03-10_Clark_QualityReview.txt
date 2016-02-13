@@ -1,0 +1,16 @@
+﻿Code Quality Review
+
+Author:Shane Clark(.2112)
+Date:3/10/2015
+Sprint:Sprint 2
+Name of file:StageFactory.cs
+Author of file:Nikit Malkan
+Minutes Reviewed: 12 minutes
+
+Specific comments on quality.
+Good
+
+Hypothetical improvement.
+Inside parseXML method, change the if statement for parsing megaman into a for loop in the case that multiple megamans (multiplayer) need to be added.
+
+Instead of Determine"Object"Type methods, a factory could be used to return an instance of the correct sprite/object.

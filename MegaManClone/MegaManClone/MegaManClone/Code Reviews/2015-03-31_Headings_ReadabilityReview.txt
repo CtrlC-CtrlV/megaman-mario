@@ -1,0 +1,9 @@
+﻿Author: Jared Headings
+Date: 03-31-2015
+Sprint: 3
+Name of File: Camera.cs
+Author of File: Bobby Reynolds
+Minutes reviewed: 15
+
+The use of regions make reading this code and making sense of it very easy, and for the most part all of the variables and methods are sensibly named.
+backgroundFrame is the only variable that to me isn't super clear at a glance, but reading into the code yields a pretty clear answer of what it is. Overall very easy to read.

@@ -1,0 +1,11 @@
+﻿Code Readability Review
+
+Author: Jared Headings
+Date: 03/10/2015
+Sprint: 2
+Name of file: StageFactory.cs
+Author of file: Nikit Malkan
+Minutes reviewed: 20
+
+Overall very easily read, with a few parts that are a tiny bit trickier to read, specifically the SpriteRotation method. At a glance it's not entirely clear what the method does.
+Variables and methods are both well-named so their function is easy to glean from just looking at the name.

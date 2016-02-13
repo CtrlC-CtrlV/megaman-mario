@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<megamangame>
+  <stage number="1" boundary="1000, 1000" background="backgrounds\stage_1">
+    <megaman position="25, 75" />
+    <blocks>
+      <block type="pyramid" position="100,100" />
+      <block type="floor" position="200 ,100" hasHidden="true">
+        <item type="etank" position="200, 100" />
+      </block>
+      <block type="hidden" position="300,100" />
+      <block type="brick" position="400,100" />
+      <block type="pyramid" position="500,100" />
+      <block type="question" position="600,100" />
+      <block type="used" position="700,100" />
+    </blocks>
+    <enemies>
+      <enemy type="met" position="100, 400" direction="right" />
+      <enemy type="beecopter" position="300,350" />
+    </enemies>
+    <items>
+      <item type="lifetank" position="100, 250" />
+      <item type="etank" position="250,250" />
+      <item type="megamanhelmet" position="400,250" />
+      <item type="falconpowerup" position="700, 250" />
+      <item type="zerohelmet" position="550, 250" />
+    </items>
+  </stage>
+  <stage number="2" boundary="0, 0" background="stage_2">
+  </stage>
+</megamangame>

@@ -1,0 +1,9 @@
+﻿Author: Jared Headings
+Date: 4/26/15
+Sprint: 5
+Name of File: Buster.cs
+Author of File: Nikit Malkan/Bobby Reynolds/Shane Clark
+Minutes reviewed: 15
+
+One comment I can make on the readability being improved possibly is in the naming of the two fields "cooldown" and "cooldownTimeout". What these fields represent is not very easily discerned from reading their names.
+The rest of the class, however, is easily read and understood just by variable, method, and field names.

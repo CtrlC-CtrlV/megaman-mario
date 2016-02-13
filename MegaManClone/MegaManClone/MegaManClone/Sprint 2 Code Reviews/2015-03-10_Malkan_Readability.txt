@@ -1,0 +1,20 @@
+﻿Code Readability Review
+
+Author:	 Nikit Malkan
+Date:	10 March 2015
+Sprint:	2
+Name of file:
+	4 Megaman Test Files
+	- BlockCollision.cs
+	- EnemyColission.cs
+	- ItemCollision.cs
+	- UnitTest1.cs
+
+Author of file:	  Anna Baker w/modifications by Shane Clark
+Minutes reviewed: 5
+
+Specific comments on readability.
+	- Code is readable.
+	- Many methods not implemented.
+	- Implemented test methods follow a structure that is repeated.
+		- Easy to read and duplicate for future tests.

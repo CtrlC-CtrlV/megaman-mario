@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+<!-- Types -->
+<xs:simpleType name="orderedPair">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="([0-9])+,([0-9])+" />
+  </xs:restriction>
+</xs:simpleType>
+
+<!-- Attributes -->
+<xs:attribute name="blockType">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="question" />
+      <xs:enumeration value="brick" />
+      <xs:enumeration value="used" />
+      <xs:enumeration value="pyramid" />
+      <xs:enumeration value="pyramid2" />
+      <xs:enumeration value="floor" />
+      <xs:enumeration value="floor2" />
+      <xs:enumeration value="hidden" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+<xs:attribute name="enemyType">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="met" />
+      <xs:enumeration value="wheelhog" />
+      <xs:enumeration value="beeCopter" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+<xs:attribute name="itemType">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="etank" />
+      <xs:enumeration value="falconpowerup" />
+      <xs:enumeration value="lifetank" />
+      <xs:enumeration value="megamanhelmet" />
+      <xs:enumeration value="zerohelmet" />
+      <xs:enumeration value="flagpole" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+<xs:attribute name="location" type="orderedPair" />
+
+<!-- Stage components -->
+<xs:element name="megaman">
+  <xs:complexType>
+    <xs:attribute ref="location" />
+  </xs:complexType>
+</xs:element>
+<xs:element name="item">
+  <xs:complexType>
+    <xs:attribute ref="itemType" />
+    <xs:attribute ref="location" use="optional"/>
+  </xs:complexType>
+</xs:element>
+<xs:element name="block">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="item" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute ref="location" />
+    <xs:attribute ref="blockType" />
+  </xs:complexType>
+</xs:element>
+<xs:element name="platform">
+  <xs:complexType>
+    <xs:attribute ref="blockType" />
+    <xs:attribute ref="location" />
+    <xs:attribute name="size" type="orderedPair" />
+  </xs:complexType>
+</xs:element>
+<xs:element name="enemy">
+  <xs:complexType>
+    <xs:attribute ref="enemyType" />
+    <xs:attribute ref="location" />
+  </xs:complexType>
+</xs:element>
+
+<!-- Describes a stage of play -->
+<xs:element name="stage">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="megaman" minOccurs="1" maxOccurs="1" />
+      <xs:element ref="platform" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element ref="block" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element ref="item" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element ref="enemy" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="stageID" type="xs:string" />
+    <xs:attribute name="background" type="xs:string" />
+    <xs:attribute name="boundary" type="orderedPair" />
+    <xs:attribute name="music" type="xs:string" />
+    <xs:attribute name="time" type="xs:string" />
+    <xs:attribute name="checkpoint" type="orderedPair" />
+  </xs:complexType>
+  <xs:unique name="uniqueStageID">
+    <xs:selector xpath="stageID" />
+    <xs:field xpath="." />
+  </xs:unique>
+</xs:element>
+
+<!-- Root element -->
+<xs:element name="megamangame">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="stage" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

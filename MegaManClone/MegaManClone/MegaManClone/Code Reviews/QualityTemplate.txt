@@ -1,0 +1,11 @@
+﻿Code Quality Review
+
+Author:
+Date:
+Sprint:
+Name of file:
+Author of file:
+
+Specific comments on quality.
+
+Hypothetical improvement.

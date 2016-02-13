@@ -1,0 +1,15 @@
+﻿Code Quality Review
+
+Author:	Nikit Malkan
+Date: 	31 March 2015
+Sprint:	 3
+Name of file: 
+	Camera.cs
+Author of file: Bobby Reynolds
+
+Specific comments on quality:
+	- Readable
+	- Code is clean.
+
+Hypothetical improvement:
+	- N/A. Cannot think of any ATM.

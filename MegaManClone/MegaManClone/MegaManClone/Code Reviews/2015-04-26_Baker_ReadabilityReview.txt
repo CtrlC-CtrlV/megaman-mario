@@ -1,0 +1,10 @@
+﻿Code Readability Review
+
+Author: Anna Baker			
+Date: 4/26
+Sprint: 5
+Name of file:  Sprite.cs
+Author of file:  Bobby
+Minutes reviewed: 5
+
+Specific comments on readability.  Nice cleanup.  Readibility vastly improved in both Sprite.cs and Megaman.cs
